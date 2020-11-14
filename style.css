@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+.wrapper {
+  width: 800px;
+  margin: 0 auto;
+  /* height: 1000px; */
+  position: relative;
+  z-index: -2;
+  background-color: #dbffd6;
+}
+
+.header {
+  background: #555555;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 0px 0px 40px 40px;
+  position: relative;
+  padding: 55px 0px;
+  z-index: 1;
+  margin-bottom: 150px;
+}
+
+.menu_list {
+  display: flex;
+  justify-content: center;
+}
+
+.logo {
+  display: block;
+  margin: 0 auto;
+}
+.menu_item {
+  margin-right: 50px;
+  padding-top: 70px;
+  padding-bottom: 25px;
+  margin-right: 50px;
+  line-height: 28px;
+  font-family: "Roboto Condensed";
+  font-size: 24px;
+  color: #328525;
+}
+.menu_item:last-child {
+  margin-right: 0;
+}
+
+.menu {
+  background: #c4c4c4;
+  border-radius: 0px 0px 40px 40px;
+  position: absolute;
+  z-index: -1;
+  top: 150px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  width: 100%;
+}
+/* не понимаю почему не сработало, не нахожу ошибку */
+.menu_item:hover {
+  color: #000;
+}
+.main {
+  /* width: 420px; */
+  /* height: 325px; */
+  /* top: 360px; */
+  color: #7ee0ff;
+  font-family: "Roboto Condensed";
+  display: flex;
+  justify-content: space-around;
+}
+.rectangle1,
+.rectangle2 {
+  background: #555555;
+  border-radius: 40px;
+  width: 325px;
+  padding: 30px 25px;
+}
+
+.article1,
+.article2 {
+  font-size: 48px;
+  line-height: 56px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+.text {
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+}
+.footer {
+  text-align: center;
+  font-family: "Roboto Mono";
+  font-size: 12px;
+  line-height: 16px;
+  margin-top: 30px;
+  padding-bottom: 30px;
+}
